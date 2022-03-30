@@ -1,0 +1,33 @@
+body{
+    background-color: palevioletred;
+}
+h1{
+    color:deeppink;
+    background-color: aliceblue;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border:5px solid darkmagenta;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#score{
+    margin-left: 20px;
+}
+#time{
+    margin-right: 20px;
+    float: right;
+}
